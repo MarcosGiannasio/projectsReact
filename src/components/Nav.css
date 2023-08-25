@@ -1,0 +1,52 @@
+
+#navegador{
+          margin:0;
+          padding:0;
+          box-sizing: border-box;
+          display: flex;
+        }
+        
+        
+        #navegador ul{
+          list-style-type: none;
+          text-align:center;
+          height: 70px;
+          margin: 0 auto;
+
+        }
+        
+        #navegador ul li{
+           text-align:center;
+           margin: 0 10px 0 0;
+
+        }
+        
+        #navegador ul li a {
+          padding: 2px 7px 2px 7px;
+          color: #282626;
+          text-decoration: none;
+        
+        }
+        #navegador {
+          display: flex;
+        }
+        #navegador ul li a:hover{
+          color: #cf3487;
+        }
+        
+        .logo {
+          width: 140px;
+          align-items: center;
+        }
+        
+        .cart {
+
+          width: 25px;
+          font-size: 12px;
+          
+      }
+
+/*       .container {
+        justify-content: flex-start;
+      }
+ */
