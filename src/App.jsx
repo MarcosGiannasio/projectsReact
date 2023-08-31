@@ -1,29 +1,45 @@
-/* import './App.css'
-import logo from "./assets/logoMB.svg"
+import './App.css';
+import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/NavBar'
 
 
-function App() {
-  
+
+function App () {
   return (
-
-
-  <nav id="navegador">
-    <ul>
-    <li><a href="#"><strong>Login</strong></a></li>
-    <li><a href="#"><strong>Conocenos</strong></a></li>
-    <li><a href="#"><strong>Comprá</strong></a></li>
-    </ul>
-
-    <a href="./index.html"><img id="logo" src={logo} alt="" /></a>
-
-
-  </nav>
-
-  
-
-      
-  )
+    <>
+    <NavBar/>
+    <ItemListContainer texto="TU CASA, COMO SIEMPRE SOÑASTE..."/>
+    </>
+  );
 }
 
 export default App
- */
+
+
+
+
+
+
+
+/* 
+function App() {
+  
+  return (
+<div>
+  <navBar/>
+</div>
+
+  )
+}
+
+function Cart() {
+  
+  return (
+    <div>
+    <CartWidget/>
+    </div>
+  )
+}
+
+
+export default {App, Cart}; */
