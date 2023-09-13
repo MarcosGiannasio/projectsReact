@@ -11,20 +11,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 
 
-
-
-
-
-/* ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <NavBar />
-  </React.StrictMode>,
- 
-) */
-
-/* ReactDOM.createRoot(document.getElementById('ok')).render(
-  <React.StrictMode>
-    <Cart />
-  </React.StrictMode>,
- 
-) */
